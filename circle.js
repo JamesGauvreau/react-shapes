@@ -87,6 +87,13 @@ const textStyle3 = {
     margin: "1%",
 }
 
+//  TODO: 
+//  Manually merge particular array values into the JSX style specifications. 
+//  Render multiple times. 
+//  While rendering, cycle through array values to retrieve particular colors. 
+//  Clean code — variables being cycled through refer only to position and color. 
+//  Apply math.random and math.floor for random colors. 
+
 const array1 = [1, 2, 3];
 
 array1.forEach(element => console.log(element));
